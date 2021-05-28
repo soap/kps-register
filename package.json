@@ -4,7 +4,7 @@
   "description": "KPS registration service LIFF app",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/soap/kps-register/issues"
   },
-  "homepage": "https://github.com/soap/kps-register#readme"
+  "homepage": "https://github.com/soap/kps-register#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "10.x"
+  }
 }
